@@ -83,3 +83,9 @@ vim.keymap.set("n", "[d", vim.diagnostic.goto_prev, { desc = "Go to previous dia
 vim.keymap.set("n", "]d", vim.diagnostic.goto_next, { desc = "Go to next diagnostic message" })
 vim.keymap.set("n", "<leader>d", vim.diagnostic.open_float, { desc = "Open floating diagnostic message" })
 vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist, { desc = "Open diagnostics list" })
+
+-- ToggleTerm Keymaps
+
+vim.keymap.set("n", "<leader>ttf", "<cmd>ToggleTerm direction=float<cr>")
+vim.keymap.set("n", "<leader>ttv", "<cmd>ToggleTerm direction=vertical<cr>")
+vim.keymap.set("n", "<leader>tth", "<cmd>ToggleTerm direction=horizontal<cr>")

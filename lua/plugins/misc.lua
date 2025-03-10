@@ -25,4 +25,9 @@ return {
 			require("colorizer").setup()
 		end,
 	},
+	{
+		"akinsho/toggleterm.nvim",
+		version = "*",
+		config = true,
+	},
 }
